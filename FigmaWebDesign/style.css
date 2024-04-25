@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 327px;
+  height: 1326px;
+
+  .sedans {
+    width: 327px;
+    height: 442px;
+    background-color: #e28625;
+    border-radius: 8px;
+    padding: 30px;
+
+    h1 {
+      font-family: "Big Shoulders Display";
+      margin-top: 30px;
+      color: white;
+    }
+
+    p {
+      margin-top: 30px;
+      color: white;
+      opacity: 75%;
+      width: 125px;
+      font-size: 15px;
+      font-family: "Lexend Deca";
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 20px;
+      background-color: white;
+      border-radius: 25px;
+      text-decoration: none;
+      color: #e28625;
+      border: 2px solid white;
+    }
+
+    a:hover {
+      background-color: #e28625;
+      color: white;
+    }
+  }
+
+  .suv {
+    width: 327px;
+    height: 442px;
+    background-color: #006971;
+    border-radius: 8px;
+    padding: 30px;
+
+    h1 {
+      font-family: "Big Shoulders Display";
+      margin-top: 30px;
+      color: white;
+    }
+
+    p {
+      margin-top: 30px;
+      color: white;
+      opacity: 75%;
+      width: 125px;
+      font-size: 15px;
+      font-family: "Lexend Deca";
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 20px;
+      background-color: white;
+      border-radius: 25px;
+      text-decoration: none;
+      color: #006971;
+      border: 2px solid white;
+    }
+
+    a:hover {
+      background-color: #006971;
+      color: white;
+    }
+  }
+
+  .luxery {
+    width: 327px;
+    height: 442px;
+    background-color: #004140;
+    border-radius: 8px;
+    padding: 30px;
+
+    h1 {
+      font-family: "Big Shoulders Display";
+      margin-top: 30px;
+      color: white;
+    }
+
+    p {
+      margin-top: 30px;
+      color: white;
+      opacity: 75%;
+      width: 125px;
+      font-size: 15px;
+      font-family: "Lexend Deca";
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 20px;
+      background-color: white;
+      border-radius: 25px;
+      text-decoration: none;
+      color: #004140;
+      border: 2px solid white;
+    }
+
+    a:hover {
+      background-color: #004140;
+      color: white;
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    width: 920px;
+    height: 500px;
+    display: flex;
+
+    .sedans {
+      width: 307px;
+      height: 500px;
+      background-color: #e28625;
+      border-radius: 8px;
+      padding: 30px;
+
+      h1 {
+        font-family: "Big Shoulders Display";
+        margin-top: 30px;
+        color: white;
+      }
+
+      p {
+        margin-top: 30px;
+        color: white;
+        opacity: 75%;
+        width: 95%;
+        font-size: 15px;
+        font-family: "Lexend Deca";
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 100px;
+        padding: 15px 20px;
+        background-color: white;
+        border-radius: 25px;
+        text-decoration: none;
+        color: #e28625;
+      }
+    }
+
+    .suv {
+      width: 307px;
+      height: 500px;
+      background-color: #006971;
+      border-radius: 8px;
+      padding: 30px;
+
+      h1 {
+        font-family: "Big Shoulders Display";
+        margin-top: 30px;
+        color: white;
+      }
+
+      p {
+        margin-top: 30px;
+        color: white;
+        opacity: 75%;
+        width: 95%;
+        font-size: 15px;
+        font-family: "Lexend Deca";
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 100px;
+        padding: 15px 20px;
+        background-color: white;
+        border-radius: 25px;
+        text-decoration: none;
+        color: #006971;
+      }
+    }
+
+    .luxery {
+      width: 307px;
+      height: 500px;
+      background-color: #004140;
+      border-radius: 8px;
+      padding: 30px;
+
+      h1 {
+        font-family: "Big Shoulders Display";
+        margin-top: 30px;
+        color: white;
+      }
+
+      p {
+        margin-top: 30px;
+        color: white;
+        opacity: 75%;
+        width: 95%;
+        font-size: 15px;
+        font-family: "Lexend Deca";
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 100px;
+        padding: 15px 20px;
+        background-color: white;
+        border-radius: 25px;
+        text-decoration: none;
+        color: #004140;
+      }
+    }
+  }
+}
